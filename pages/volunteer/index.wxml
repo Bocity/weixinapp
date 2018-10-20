@@ -1,0 +1,34 @@
+<i-row>
+<i-col span="8">
+<view class='fx-zx'>
+<button opentype="contact" plain="{{plain}}"><image src='../../img/u110.png'></image></button>
+</view>
+ </i-col> 
+ <i-col span="8">
+<view class='fx-zx'>
+<button opentype="contact" plain="{{plain}}"><image src='../../img/u112.png'></image></button>
+</view>
+ </i-col>
+ <i-col span="8">
+<view class='fx-zx'>
+<button opentype="contact" plain="{{plain}}"><image src='../../img/u114.png'></image></button>
+</view>
+ </i-col>
+ </i-row>
+ <i-row>
+ <i-col span="24">
+ <view class='fx-map'>
+<button opentype="contact" plain="{{plain}}"><image src='../../img/u116.png'></image></button>
+</view>
+ </i-col>
+ </i-row>
+ <i-row>
+ <i-col span="24">
+ <van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="标签 1">内容 1</van-tab>
+  <van-tab title="标签 2">内容 2</van-tab>
+  <van-tab title="标签 3">内容 3</van-tab>
+  <van-tab title="标签 4">内容 4</van-tab>
+</van-tabs>
+ </i-col>
+ </i-row>

@@ -1,0 +1,36 @@
+<i-row>
+<i-col span="24">
+<van-cell-group>
+  <van-cell
+    title="新用户"
+    is-link
+    arrow-direction="down"
+    value="注册/登录"
+    border="{{ false }}"
+    url="/pages/register/index"
+  />
+</van-cell-group>
+</i-col> 
+<i-col span="24">
+<van-cell-group>
+  <van-cell
+    title="联系客服"
+    is-link
+    arrow-direction="down"
+    border="{{ false }}"
+    url="/pages/register/index"
+  />
+</van-cell-group>
+</i-col>
+<i-col span="24">
+<van-cell-group>
+  <van-cell
+    title="关于智翼"
+    is-link
+    arrow-direction="down"
+    border="{{ false }}"
+    url="/pages/register/index"
+  />
+</van-cell-group>
+</i-col>
+</i-row>

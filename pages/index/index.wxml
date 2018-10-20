@@ -1,0 +1,66 @@
+<!--index.wxml-->
+<i-row>
+    <i-col span="24">
+    <!--vant UI-->
+        <van-search value="{{ value }}" placeholder="请输入搜索关键词" use-action-slot bind:search="onSearch"> 
+            <view slot="action" bind:tap="onSearch">搜索</view>
+        </van-search>
+    </i-col>
+</i-row>
+<i-row>
+    <i-col span="24" i-class="col-class" >
+    <!--iView UI-->
+        <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+            <block wx:for="{{movies}}" wx:for-index="index">  
+                <swiper-item>  
+                    <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+                </swiper-item>  
+            </block>  
+        </swiper>  
+    </i-col>
+</i-row>
+<i-row>
+<i-panel title="标题">
+    <view style="padding: 15px;">
+    <i-col span="24">
+        <i-card title="卡片标题" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+            <view slot="content">内容不错</view>
+            <view slot="footer">尾部内容</view>
+        </i-card>
+    </i-col>
+    <i-col span="24">
+        <i-card title="卡片标题" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+            <view slot="content">内容不错</view>
+            <view slot="footer">尾部内容</view>
+        </i-card>
+    </i-col>
+    <i-col span="24">
+        <i-card title="卡片标题" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+            <view slot="content">内容不错</view>
+            <view slot="footer">尾部内容</view>
+        </i-card>
+    </i-col>
+    <i-col span="24">
+        <i-card title="卡片标题" extra="额外内容" thumb="https://i.loli.net/2017/08/21/599a521472424.jpg">
+            <view slot="content">内容不错</view>
+            <view slot="footer">尾部内容</view>
+        </i-card>
+    </i-col>
+    </view>
+</i-panel>
+</i-row>
+
+<!--
+<i-row>
+    <i-col>
+        <i-tab-bar current="{{ current }}" bindchange="handleChange" fixed="True">
+            <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="主页"></i-tab-bar-item>
+            <i-tab-bar-item key="group" icon="group" current-icon="group_fill" title="志愿"></i-tab-bar-item>
+            <i-tab-bar-item key="remind" icon="remind" current-icon="remind_fill" count="2" title="发现"></i-tab-bar-item>
+            <i-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" dot title="个人"></i-tab-bar-item>
+        </i-tab-bar>
+    </i-col>
+</i-row>
+-->
+
+

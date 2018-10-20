@@ -1,0 +1,14 @@
+{
+    "component": true,
+    "usingComponents": {
+        "i-card": "../../dist/card/index",
+        "i-row": "../../dist/row/index",
+        "i-col": "../../dist/col/index",
+        "i-button": "../../dist/button/index",
+        "i-modal": "../../dist/modal/index",
+        "i-tab-bar": "../../dist/tab-bar/index",
+        "i-tab-bar-item": "../../dist/tab-bar-item/index",
+        "van-search": "../../dist2/search/index",
+        "i-panel": "../../dist/panel/index"
+    }
+}
