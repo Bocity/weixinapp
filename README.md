@@ -8,7 +8,7 @@
 ### 2018-10-20
 - 建立仓库，上传已完成前端部分
 - 创建README
-![img](./README/1.png)
-![img](./README/2.png)
-![img](./README/3.png)
-![img](./README/4.png)
+![img](./README/1.png =200x)
+![img](./README/2.png =200x)
+![img](./README/3.png =200x)
+![img](./README/4.png =200x)
