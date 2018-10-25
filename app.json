@@ -5,7 +5,8 @@
     "pages/volunteer/index",
     "pages/find/index",
     "pages/user/index",
-    "pages/register/index"
+    "pages/register/index",
+    "pages/map/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
