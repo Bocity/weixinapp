@@ -60,5 +60,10 @@ Page({
   },
   handleChang : function (e) {
 
+  },
+  Tomap: function(){
+    wx.navigateTo({
+      url: '../../pages/map/index'
+    })
   }
 })

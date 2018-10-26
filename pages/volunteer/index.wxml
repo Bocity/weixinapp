@@ -18,7 +18,7 @@
  <i-row>
  <i-col span="24">
  <view class='fx-map'>
-<button opentype="contact" plain="{{plain}}"><image src='../../img/u116.png'></image></button>
+<button opentype="contact" plain="{{plain}}" bindtap="Tomap"><image src='../../img/u116.png'></image></button>
 </view>
  </i-col>
  </i-row>
