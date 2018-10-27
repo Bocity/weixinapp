@@ -9,7 +9,7 @@
 </view>
 <view>
   <van-field
-    value="{{ phone }}"
+    value="{{  name }}"
     label="姓名"
     placeholder="请输入姓名"
     border="{{ false }}"
@@ -17,7 +17,7 @@
 </view>
 <view>
   <van-field
-    value="{{ phone }}"
+    value="{{ number }}"
     label="身份证号 "
     placeholder="请输入身份证号"
     error-message="身份证号格式错误"
@@ -52,7 +52,7 @@
 </i-col>
 </i-row>
 <i-row>
-<i-col span="4" offset="20">
+<i-col span="4" offset="19">
 <van-button round type="primary">提交</van-button>
 </i-col>
 </i-row>
